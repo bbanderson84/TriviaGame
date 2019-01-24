@@ -1,0 +1,30 @@
+body {
+    background-image: url("../images/background2.jpg");
+    background-repeat: no-repeat;
+}
+
+.jumbotron {
+    width: 1000px;
+    height: 1000px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.display-4 {
+    text-align: center;
+    color: blue;
+}
+
+.lead {
+    text-align: center;
+}
+
+.btn {
+    align-content: center;
+    align-items: center;
+
+}
+
+.form-check-inline {
+    text-align: center;
+}
