@@ -12,7 +12,7 @@
  
     <div class="jumbotron">
 
-        <h1 class="display-4">MUSIC TRIVIA GAME!</h1>
+        <h1 class="display-4"><strong>MUSIC TRIVIA GAME!</strong></h1>
 
         <p class="lead">Please choose an answer for each question before the time runs out.</p>
         
@@ -20,35 +20,39 @@
 
         <div id="start_game">
 
-        <h4 class="time">Time Remaining: <span id="time-remaining"></span></h4>
+        <h4 class="time">Time Remaining: <span id="time-remaining"></span> Seconds</h4>
+<br>
+        <div class="content">
+        
+        <form id="trivia" name="trivia">
 
-        <div class="question">
+        <div class="question1">
 
             <p><strong> 1. What band created the hit single "Scar Tissue", released in 1999 from the album "Californiacation"?</strong></p>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer1" value="option1" checked>
+                <input class="form-check-input" type="radio" name="question1" id="answer1" value="Red Hot Chili Peppers">
                 <label class="form-check-label" for="exampleRadios1">
                   Red Hot Chili Peppers
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer2" value="option2">
+                <input class="form-check-input" type="radio" name="question1" id="answer2" value="Green Day">
                 <label class="form-check-label" for="exampleRadios2">
                   Green Day
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer3" value="option3">
+                <input class="form-check-input" type="radio" name="question1" id="answer3" value="Nirvana">
                 <label class="form-check-label" for="exampleRadios3">
                   Nirvana
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer4" value="option4">
+                <input class="form-check-input" type="radio" name="question1" id="answer4" value="Minus the Bear">
                 <label class="form-check-label" for="exampleRadios4">
                   Minus the Bear
                 </label>
@@ -58,33 +62,33 @@
         
 <br>
 <br>
-        <div class="question">
+        <div class="question2">
 
             <p><strong> 2. What band made a name for themselves with their politically charged lyrics, often criticizing the US government?</strong> </p>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer5" value="option5" checked>
+                <input class="form-check-input" type="radio" name="question2" id="answer5" value="Dave Matthews Band" >
                 <label class="form-check-label" for="exampleRadios5">
                   Dave Matthews Band
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer6" value="option6">
+                <input class="form-check-input" type="radio" name="question2" id="answer6" value="Modest Mouse">
                 <label class="form-check-label" for="exampleRadios6">
                   Modest Mouse
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer7" value="option7">
+                <input class="form-check-input" type="radio" name="question2" id="answer7" value="The Black Keys">
                 <label class="form-check-label" for="exampleRadios7">
                   The Black Keys
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer8" value="option8">
+                <input class="form-check-input" type="radio" name="question2" id="answer8" value="Rage Against The Machine">
                 <label class="form-check-label" for="exampleRadios8">
                   Rage Against The Machine
                 </label>
@@ -94,33 +98,33 @@
 
 <br>
 <br>
-        <div class="question">
+        <div class="question3">
 
             <p><strong> 3. Formed in Seattle, this band was one of the first ones to bring punk/grunge into the mainstream?</strong></p>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer9" value="option9" checked>
+                <input class="form-check-input" type="radio" name="question3" id="answer9" value="Nirvana">
                 <label class="form-check-label" for="exampleRadios9">
                   Nirvana
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer10" value="option10">
+                <input class="form-check-input" type="radio" name="question3" id="answer10" value="Incubus">
                 <label class="form-check-label" for="exampleRadios10">
                   Incubus
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer11" value="option11">
+                <input class="form-check-input" type="radio" name="question3" id="answer11" value="Greensky Bluegrass">
                 <label class="form-check-label" for="exampleRadios11">
                   Greensky Bluegrass
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer12" value="option12">
+                <input class="form-check-input" type="radio" name="question3" id="answer12" value="Rancid">
                 <label class="form-check-label" for="exampleRadios12">
                   Rancid
                 </label>
@@ -130,33 +134,33 @@
         
 <br>
 <br>
-        <div class="question">
+        <div class="question4">
 
             <p><strong> 4. Tragically, this bands frontman died around the time they started gaining popularity.</strong></p>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer13" value="option13" checked>
+                <input class="form-check-input" type="radio" name="question4" id="answer13" value="Pearl Jam">
                 <label class="form-check-label" for="exampleRadios13">
                   Pearl Jam
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer14" value="option14">
+                <input class="form-check-input" type="radio" name="question4" id="answer14" value="311">
                 <label class="form-check-label" for="exampleRadios14">
                   311
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer15" value="option15">
+                <input class="form-check-input" type="radio" name="question4" id="answer15" value="Sublime">
                 <label class="form-check-label" for="exampleRadios15">
                   Sublime
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer16" value="option16">
+                <input class="form-check-input" type="radio" name="question4" id="answer16" value="Reel Big Fish">
                 <label class="form-check-label" for="exampleRadios16">
                   Reel Big Fish
                 </label>
@@ -166,33 +170,33 @@
 
 <br>
 <br>
-        <div class="question">
+        <div class="question5">
 
             <p><strong> 5. This band consists of 2 members and fuses garage rock and blues.</strong></p>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer13" value="option13" checked>
+                <input class="form-check-input" type="radio" name="question5" id="answer13" value="The Black Keys">
                 <label class="form-check-label" for="exampleRadios13">
                   The Black Keys
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer14" value="option14">
+                <input class="form-check-input" type="radio" name="question5" id="answer14" value="Metallica">
                 <label class="form-check-label" for="exampleRadios14">
                   Metallica
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer15" value="option15">
+                <input class="form-check-input" type="radio" name="question5" id="answer15" value="Phish">
                 <label class="form-check-label" for="exampleRadios15">
                   Phish
                 </label>
             </div>
 
             <div class="form-check-inline">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="answer16" value="option16">
+                <input class="form-check-input" type="radio" name="question5" id="answer16" value="Bad Religion">
                 <label class="form-check-label" for="exampleRadios16">
                   Bad Religion
                 </label>
@@ -202,33 +206,33 @@
 
 <br>
 <br>      
-        <div class="question">
+        <div class="question6">
 
                 <p><strong> What is the name of the frontman of the Foo Fighters, who also used to be the drummer of Nirvana?</strong></p>
 
                 <div class="form-check-inline">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="answer17" value="option17" checked>
+                    <input class="form-check-input" type="radio" name="question6" id="answer17" value="Kurt Cobain">
                     <label class="form-check-label" for="exampleRadios17">
                       Kurt Cobain
                     </label>
                 </div>
     
                 <div class="form-check-inline">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="answer18" value="option18">
+                    <input class="form-check-input" type="radio" name="question6" id="answer18" value="Eddie Vedder">
                     <label class="form-check-label" for="exampleRadios18">
                       Eddie Vedder
                     </label>
                 </div>
     
                 <div class="form-check-inline">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="answer19" value="option19">
+                    <input class="form-check-input" type="radio" name="question6" id="answer19" value="Dave Grohl">
                     <label class="form-check-label" for="exampleRadios19">
                       Dave Grohl
                     </label>
                 </div>
     
                 <div class="form-check-inline">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="answer20" value="option20">
+                    <input class="form-check-input" type="radio" name="question6" id="answer20" value="Bradley Nowell">
                     <label class="form-check-label" for="exampleRadios20">
                       Bradley Nowell
                     </label>
@@ -238,33 +242,33 @@
 
 <br>
 <br>            
-            <div class="question">
+            <div class="question7">
 
                     <p><strong> 7. What band sued Ticketmaster, claiming that it had monopolized the concert-ticket market?</strong> </p>
     
                     <div class="form-check-inline">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="answer21" value="option21" checked>
+                        <input class="form-check-input" type="radio" name="question7" id="answer21" value="Beastie Boys">
                         <label class="form-check-label" for="exampleRadios21">
                           Beastie Boys
                         </label>
                     </div>
         
                     <div class="form-check-inline">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="answer22" value="option22">
+                        <input class="form-check-input" type="radio" name="question7" id="answer22" value="The Clash">
                         <label class="form-check-label" for="exampleRadios22">
                           The Clash
                         </label>
                     </div>
         
                     <div class="form-check-inline">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="answer23" value="option23">
+                        <input class="form-check-input" type="radio" name="question7" id="answer23" value="The White Stripes">
                         <label class="form-check-label" for="exampleRadios23">
                           The White Stripes
                         </label>
                     </div>
         
                     <div class="form-check-inline">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="answer24" value="option24">
+                        <input class="form-check-input" type="radio" name="question7" id="answer24" value="Pearl Jam">
                         <label class="form-check-label" for="exampleRadios24">
                           Pearl Jam
                         </label>
@@ -275,41 +279,55 @@
 <br>
 <br>
             
-            <div class="question">
+            <div class="question8">
 
                     <p><strong> 8. Who plays an annual weekend long show at Red Rocks, titled "Rowdytown"?</strong> </p>
 
                     <div class="form-check-inline">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="answer25" value="option25" checked>
+                        <input class="form-check-input" type="radio" name="question8" id="answer25" value="The Avett Brothers">
                         <label class="form-check-label" for="exampleRadios25">
                             The Avett Brothers
                         </label>
                     </div>
             
                     <div class="form-check-inline">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="answer26" value="option26">
+                        <input class="form-check-input" type="radio" name="question8" id="answer26" value="Cage The Elephant">
                         <label class="form-check-label" for="exampleRadios26">
                             Cage The Elephant
                         </label>
                     </div>
             
                     <div class="form-check-inline">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="answer27" value="option27">
+                        <input class="form-check-input" type="radio" name="question8" id="answer27" value="Big Gigantic">
                         <label class="form-check-label" for="exampleRadios27">
                             Big Gigantic
                         </label>
                     </div>
             
                     <div class="form-check-inline">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="answer28" value="option28">
+                        <input class="form-check-input" type="radio" name="question8" id="answer28" value="Umphreys Mcgee">
                         <label class="form-check-label" for="exampleRadios28">
                             Umphreys Mcgee
                         </label>
                     </div>
             
-            </div> 
-        
+            </div>
+<br>
+<br>
+        <p class="text-center"><input id="button2" type="button" value="DONE"></p>
+
+        </form>
+
         </div>   
+
+        <div id="game-finished">
+            <strong><h3> QUIZ COMPLETED!</h3></strong>
+            <br>
+            <h4 class="correct">Correct: <span id="user-correct"></span></h4>
+            <br>
+            <h4 class="incorrect">Incorrect: <span id="user-incorrect"></span></h4>
+            <br>
+        </div>
 
     </div>
 

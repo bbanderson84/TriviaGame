@@ -7,7 +7,7 @@ body {
 
 .jumbotron {
     width: 1000px;
-    height: 1200px;
+    height: 1400px;
     margin-left: 200px;
     margin-top: 50px;
 }
@@ -19,6 +19,15 @@ body {
     color: aliceblue;
     align-items: center;
     visibility: visible;
+}
+
+#game-finished {
+    text-align: center;
+    visibility: hidden;
+    margin-top: -1000px;
+    border-style: solid;
+    border-color: red;
+
 }
 
 .display-4 {
@@ -37,9 +46,19 @@ body {
 .time {
     text-align: center;
     margin-bottom: 80px;
-    margin-top: -80px;
+    margin-top: -100px;
 }
 
-.question {
+.content {
     text-align: center;
+    margin-top: -10px;
+}
+
+#button2 {
+    width: 200px;
+    height: 80px;
+    background-color: blue;
+    color: aliceblue;
+    align-items: center;
+    visibility: hidden;
 }
